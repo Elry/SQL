@@ -1,0 +1,3 @@
+SELECT ROUND(f.preco_da_locacao, 1),
+  TRUNCATE(f.preco_da_locacao, 1)
+FROM filme f
