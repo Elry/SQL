@@ -1,0 +1,5 @@
+SELECT m.rent_price,
+  m.rent_price DIV 2,
+  m.rent_price MOD 2,
+  m.rent_price / 2
+FROM movie m
